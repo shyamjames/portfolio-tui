@@ -1,52 +1,69 @@
 module.exports = {
-  name: "Your Name",
-  tagline: "building things for the web",
-  welcome: "Welcome to my terminal portfolio.\nFeel free to explore my projects and background.\nEverything is navigable via your keyboard.",
+  name: "Shyam James",
+  tagline: "MCA Student | Web Developer | Python | Django | Linux",
+  welcome: "Welcome to my terminal portfolio.\nAlways learning, always shipping.\nUse your keyboard to navigate through my work.",
   
   projects: [
     {
-      id: "project-1",
-      name: "Terminal Portfolio",
-      shortDesc: "SSH-accessible TUI portfolio",
-      description: "A fully functional terminal user interface served directly over SSH.\n\nBuilt entirely in Node.js without requiring clients to install anything beyond a standard SSH client. Uses blessed for UI rendering and handles window resize events seamlessly.\n\nProvides a unique, developer-focused way to present a portfolio.",
-      tags: ["Node.js", "ssh2", "blessed", "TUI"],
-      url: "https://github.com/yourusername/portfolio-tui"
+      id: "icswhmh",
+      name: "11th Intl Conference on Social Work",
+      shortDesc: "Official conference website",
+      description: "Collaborated on the conceptualization, development, and deployment of the official website for the 11th International Conference on Social Work in Health and Mental Health.",
+      tags: ["Web Development", "Deployment"],
+      url: "https://icswhmh.com"
     },
     {
-      id: "project-2",
-      name: "Ozone Dashboard",
-      shortDesc: "Real-time analytics dashboard",
-      description: "A high-performance analytics dashboard processing millions of events per day.\n\nFeatures a custom WebGL visualization engine for rendering large datasets in the browser without dropping frames. Backend built with Go and PostgreSQL.\n\nUsed by over 500 enterprise customers.",
-      tags: ["React", "WebGL", "Go", "Postgres"],
-      url: "https://example.com/ozone"
+      id: "spam-recognition",
+      name: "Email Spam Recognition System",
+      shortDesc: "Hybrid spam detection model",
+      description: "Developed a hybrid spam detection model utilizing a Naive Bayes Classifier for text categorization and a Genetic Algorithm for feature selection/optimization.\n\nBuilt a full-stack Django web app providing a real-time dashboard for email analysis. Integrated API communication between an Android frontend and Python backend.",
+      tags: ["Python", "Django", "Machine Learning", "Android SDK"],
+      url: "https://github.com/shyamjames"
     },
     {
-      id: "project-3",
-      name: "Nexus API",
-      shortDesc: "GraphQL federation gateway",
-      description: "A federated GraphQL gateway that consolidates 15 different microservices into a single, cohesive graph.\n\nIncludes built-in rate limiting, query complexity analysis, and distributed tracing. Reduced integration time for frontend teams by 40%.",
-      tags: ["TypeScript", "GraphQL", "Redis", "Apollo"],
-      url: "https://github.com/yourusername/nexus-api"
+      id: "dotfiles",
+      name: "dotfiles-black-minimal",
+      shortDesc: "Personal Arch Linux + Hyprland config",
+      description: "A minimal, high-contrast, off-black Hyprland configuration designed for focus and aesthetic consistency. Managed by GNU stow. I use Arch Btw! :)",
+      tags: ["Linux", "Hyprland", "Shell", "GNU Stow"],
+      url: "https://github.com/shyamjames/dotfiles-black-minimal"
+    },
+    {
+      id: "sys-monitor",
+      name: "SystemResourceMonitor",
+      shortDesc: "Java Swing desktop application",
+      description: "A Java Swing desktop application that monitors live system resource usage (CPU, memory, disk I/O) and displays the top running processes.",
+      tags: ["Java", "Swing", "Desktop App"],
+      url: "https://github.com/shyamjames/SystemResourceMonitor"
+    },
+    {
+      id: "ai-web-helper",
+      name: "AI-Web-Helper",
+      shortDesc: "Modular AI integration project",
+      description: "A Python library which uses Google Gemini for AI Assistance. Features a modular AI integration project with a reusable Python helper library and Flask interface.",
+      tags: ["Python", "Flask", "AI", "Gemini"],
+      url: "https://github.com/shyamjames/AI-Web-Helper"
     }
   ],
   
-  bio: "I'm a software engineer specializing in backend systems and developer tools. I love building things that live in the terminal and push the boundaries of what's possible on the web.\n\nWhen I'm not coding, you can find me hiking, reading sci-fi, or tinkering with vintage keyboards.",
+  bio: "I'm an MCA student passionate about building end-to-end web applications and solving real-world technical challenges. With hands-on experience in Django for backend development and Linux for deployment & system tinkering, I love turning ideas into functional, scalable solutions.\n\nI'm a natural problem-solver—diagnosing bugs, optimizing code, and exploring new tools excites me the most. I thrive on exploring new tech, building projects, and turning complex problems into elegant solutions. Always learning, always shipping.\n\nExperience:\n• Web Developer @ RlabZ (Dec 2025 - Present)\n• Website Administrator @ Christuraj Hostel Palai (Jan 2022 - Mar 2024)\n• Full Stack Developer Intern @ Corezone Solutions (Feb 2024)",
   
   skills: {
-    "Languages": ["JavaScript/TypeScript", "Go", "Python", "Rust", "SQL"],
-    "Frameworks": ["React", "Node.js", "Express", "Next.js", "Tailwind"],
-    "Tools": ["Git", "Docker", "Linux", "AWS", "PostgreSQL", "Redis"]
+    "Languages": ["Python", "Java", "JavaScript", "PHP", "SQL"],
+    "Web/Frameworks": ["Django", "Web Development", "Android SDK", "User Experience (UX)"],
+    "Tools & Systems": ["Linux", "Docker", "Git", "GitHub", "cPanel", "RDBMS"],
+    "Topics & Security": ["Agentic Workflows", "RAG", "SQL Injection", "SEIM", "Sniffer", "Security Mindset"],
+    "Spoken Languages": ["Malayalam (Native)", "English (Professional)", "Hindi (Elementary)"]
   },
   
   contact: {
-    message: "Don't be a stranger! Feel free to reach out.",
+    message: "Open to internships, collaborations, and cool conversations. Let's connect and build something awesome!",
     methods: [
-      { text: "Email", target: "hello@example.com", icon: "✉" },
-      { text: "GitHub", target: "github.com/yourusername", icon: "🐙" },
-      { text: "LinkedIn", target: "linkedin.com/in/yourusername", icon: "⧉" },
-      { text: "Twitter", target: "@yourusername", icon: "𝕏" }
+      { text: "GitHub", target: "github.com/shyamjames", icon: "🐙" },
+      { text: "Bio", target: "shyamjames.github.io (placeholder)", icon: "⧉" },
+      { text: "Location", target: "Ernakulam, Kerala, India", icon: "📍" }
     ],
     // The fingerprint will be populated at runtime by the server
-    fingerprintLine: "SSH Host Fingerprint: "
+    fingerprintLine: "Host Fingerprint: "
   }
 };

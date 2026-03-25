@@ -16,19 +16,19 @@ module.exports = function HomePage(parent, colors, screen) {
 
   // ASCII art generated with standard figlet font
   const asciiName = `
- __     __               _   _                     
- \\ \\   / /              | \\ | |                    
-  \\ \\_/ /__  _   _ _ __ |  \\| | __ _ _ __ ___   ___ 
-   \\   / _ \\| | | | '__|| . \` |/ _\` | '_ \` _ \\ / _ \\
-    | | (_) | |_| | |   | |\\  | (_| | | | | | |  __/
-    |_|\\___/ \\__,_|_|   |_| \\_|\\__,_|_| |_| |_|\\___|
+  ____  _                                 _                           
+ / ___|| |__  _   _  __ _ _ __ ___       | | __ _ _ __ ___   ___  ___ 
+ \\___ \\| '_ \\| | | |/ _\` | '_ \` _ \\   _  | |/ _\` | '_ \` _ \\ / _ \\/ __|
+  ___) | | | | |_| | (_| | | | | | | | |_| | (_| | | | | | |  __/\\__ \\
+ |____/|_| |_|\\__, |\\__,_|_| |_| |_|  \\___/ \\__,_|_| |_| |_|\\___||___/
+              |___/                                                   
   `;
 
   blessed.box({
     parent: container,
     top: 3,
     left: 'center',
-    width: 60,
+    width: 70,
     height: 9,
     content: `{${colors.accent}-fg}${asciiName}{/${colors.accent}-fg}`,
     tags: true,
